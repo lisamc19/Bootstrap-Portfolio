@@ -20,15 +20,11 @@ h3 {
 	text-align: center;
 }
 
-body {
-	background-image: url("images/textured_paper.png");
-}
-
 footer {
 	text-align: center;
 	padding: 50px;
 	background-color: grey;
-	margin-top: 50px;
+	margin: 0 auto;
 	border-top: 8px solid #4aaaa5;
 	color: white;
 	padding-top: 60px;
@@ -36,11 +32,9 @@ footer {
   	right: 0;
 	bottom: 0;
 	left: 0;
-
-}
-
-body > .container {
-  padding-top: 60px;
+	width: 100%
+	height: 100px;
+	overflow: hidden;
 }
 
 a.navbar-brand {
@@ -95,6 +89,12 @@ button#submit {
 
 body {
 	background-image: url("../images/tealgold.jpg");
+	margin: 0 0 100px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
 }
 
 #aboutmebox {
@@ -105,4 +105,8 @@ body {
 
 #connectbox {
 	opacity: 0.75;
+}
+
+#bottomrow {
+	height: 200px;
 }
