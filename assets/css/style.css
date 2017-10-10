@@ -81,10 +81,9 @@ button#submit {
 	border-color: #4aaaa5;
 }
 
-#Contact {
-	font-color: #4aaaa5;
+#Contact h1 {
+	color: #4aaaa5;
 	font-family:'Georgia', Times, Times New Roman, serif;
-	font-size: 25px;
 }
 
 body {
@@ -109,4 +108,16 @@ html {
 
 #bottomrow {
 	height: 200px;
+}
+
+h4.card-title {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#form {
+	margin-top: 50px;
+}
+#portfoliobox {
+	opacity: 0.75;
 }
